@@ -1,0 +1,42 @@
+@import './assets/styles/variables';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  color: $accent-color;
+  &:hover {
+    color: darken($accent-color, 10%);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: $accent-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
+
