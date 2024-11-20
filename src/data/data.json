@@ -1,0 +1,88 @@
+{
+  "name": "Aditya Gupta",
+  "role": "Software Developer",
+  "bio": "A software professional with an experience with 6 years in Software analysis, design and developing applications using J2SE/J2EE Technologies and agile metho.",
+  "skills": [
+    "Programming Languages: J2SE/J2EE, Java 8",
+    "Databases: OracleDB, MySQL, DB2, PostgreSQL, Cassandra, DynamoDB",
+    "Web Framework: Spring, Spring Boot, Hibernate, Microservices, REST APIs",
+    "J2EE Technologies: JSP, Servlet",
+    "Scripting Language: JavaScript",
+    "IDE: Eclipse, IntelliJ, Visual Studio",
+    "Miscellaneous: Java Collections, Data Structures, Multi-Threading, Design Patterns",
+    "Others: AWS, AWS Lambda, Rest Web Services, Kafka, SOAP, Putty, Subversion (SVN), WINSCP, Beyond Compare, Maven, Postman, SOAP UI, Splunk, JBoss, Tomcat, Jira, GitHub, Git, BitBucket, Maven, Log4J, Docker, Kubernetes, Redis Cache"
+  ],
+  "education": [
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "institution": "Indraprastha Engineering College, Uttar Pradesh",
+        "duration": "2014 - 2018",
+        "score": "First Division"
+      },
+      {
+        "degree": "Higher Secondary School Certificate",
+        "institution": "S.R.D.A.V. Public School, Dayanand Vihar, Delhi",
+        "duration": "",
+        "score": ""
+      },
+      {
+        "degree": "Secondary School Certificate",
+        "institution": "S.R.D.A.V. Public School, Dayanand Vihar, Delhi",
+        "duration": "",
+        "score": ""
+      }
+  ],
+  "experiences": [
+        {
+          "company": "Nagarro",
+          "role": "Software Developer",
+          "duration": "September 2021 - Present",
+          "projects": [
+              {
+                  "name": "Export e-marketplace",
+                  "client": "Tata",
+                  "techstack": "Java1.8, SpringBoot, Microservices, Spring Core, Spring REST, Spring MVC, Spring JPA, MySQL, Maven, AWS, IntelliJ, Jenkins, Log4J, Mockito, Kafka, Redis Cache",
+                  "description": "Export e-marketplace is a business-to-business online marketplace, designed to facilitate transactions and interactions between buyers and sellers globally. It serves as a centralized hub where global buyers can place any customized order as per their requirement and respective sellers will see the order in their dashboard and initiate the handshake."
+              },
+              {
+                  "name": "IBM Sunset",
+                  "client": "Lowe's",
+                  "techstack": "Java, Spring Boot, Hibernate, Microservices, REST, Postgres, DB2, Kafka",
+                  "description": "This project is for migration of Architecture based on Mainframe jobs and ETL to microservices based application in Java."
+              }
+          ]
+        },
+        {
+          "company": "Newgen Software",
+          "role": "Software Developer",
+          "duration": "February 2021 - September 2021",
+          "projects": [
+              {
+                  "name": "Client Banking Group (CBG)",
+                  "client": "ADC Bank",
+                  "techstack": "Java, Spring Boot, Oracle, JSP, JS, REST",
+                  "description": "This project is designed for clients to manage their processes, content, and communications for connected operations. It enables automated validation and verification for numerous banking tasks."
+              }
+          ]
+        },
+        {
+          "company": "Accenture Technologies",
+          "role": "Software Developer",
+          "duration": "February 2018 - September 2020",
+          "projects": [
+              {
+                  "name": "Customer Management Solution (CMS)",
+                  "client": "Leading Clothing Brand",
+                  "techstack": "Java, Spring, Hibernate, Oracle",
+                  "description": "This project is designed for customer Service portal that aims to improve the quality, turnaround time and service for end-customers. It enables improvement in the agility, transparency and efficiency for providing customer solutions. As a customer management solution, it enabled e-commerce to automate the processes for achieving cost savings and enhanced customer experience."
+              }
+          ]
+        }
+      ],  
+  "projects": [],
+  "contact": {
+    "email": "aditya.gupta0330@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aadityaa/",
+    "mobile": "+91-8800282414"
+  }
+}

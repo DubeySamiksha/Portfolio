@@ -1,0 +1,41 @@
+@import '../../assets/styles/variables';
+
+.education {
+  padding: 40px 0;
+
+  h2 {
+    text-align: center;
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  .education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .education-card {
+    background-color: white;
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      margin: 0;
+      color: $primary-color;
+
+      .score {
+        color: $secondary-color;
+        font-size: 1rem;
+      }
+    }
+
+    .duration {
+      font-style: italic;
+      color: $secondary-color;
+      margin: 5px 0;
+    }
+  }
+}
