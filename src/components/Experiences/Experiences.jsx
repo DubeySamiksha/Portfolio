@@ -19,15 +19,17 @@ function Experiences() {
             className={`experience-card ${expandedIndex === index ? 'expanded' : ''}`}
             onClick={() => handleAccordionToggle(index)}
           >
-            <div className="experience-summary">
+            <div>
               <h3>{experience.company}</h3>
-              <p>
-                <strong>{experience.role}</strong>
-              </p>
-              <p className="duration">{experience.duration}</p>
-              <span className="expand-icon">
-                {expandedIndex === index ? '▲' : '▼'}
-              </span>
+              <div className="experience-summary">
+                <p>
+                  <strong>{experience.role}</strong>
+                </p>
+                <p className="duration">{experience.duration}</p>
+                <span className="expand-icon">
+                  {expandedIndex === index ? '▲' : '▼'}
+                </span>
+              </div>
             </div>
 
             {expandedIndex === index && (
