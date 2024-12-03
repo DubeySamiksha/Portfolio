@@ -25,10 +25,12 @@ function Experiences() {
                 <p>
                   <strong>{experience.role}</strong>
                 </p>
-                <p className="duration">{experience.duration}</p>
-                <span className="expand-icon">
-                  {expandedIndex === index ? '▲' : '▼'}
-                </span>
+                <div className='duration-wrapper'>
+                  <p className="duration">{experience.duration}</p>
+                  <span className="expand-icon">
+                    {expandedIndex === index ? '▲' : '▼'}
+                  </span>
+                </div> 
               </div>
             </div>
 
