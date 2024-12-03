@@ -1,0 +1,135 @@
+@import '../../assets/styles/variables';
+
+.experiences {
+  padding: 40px 0;
+
+  h2 {
+    text-align: center;
+    color: $primary-color;
+    margin-bottom: 30px;
+  }
+
+  .experiences-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: One card per row */
+    gap: 20px;
+  }
+
+  .experience-card {
+    background-color: $card-bg-color;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    &.expanded {
+      border-color: $accent-color;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .experience-summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        color: $primary-color;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+      }
+
+      .duration-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .duration {
+          font-style: italic;
+          color: $secondary-color;
+          font-size: 0.9rem;
+        }
+  
+        .expand-icon {
+          font-size: 1.5rem;
+          color: $accent-color;
+          transition: transform 0.3s ease;
+        }
+      }
+    }
+
+    .experience-details {
+      margin-top: 15px;
+      padding: 10px;
+      border-top: 1px solid $border-color;
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+
+        li {
+          margin-bottom: 5px;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .experiences {
+      padding: 20px 0;
+
+      .experience-card {
+        padding: 15px;
+      }
+
+      .experience-summary h3 {
+        font-size: 1rem;
+      }
+
+      .experience-summary .duration {
+        font-size: 0.8rem;
+      }
+
+      .experience-summary .expand-icon {
+        font-size: 1.2rem;
+      }
+
+      .experience-details ul li {
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .experiences {
+      padding: 10px 0;
+
+      .experience-card {
+        padding: 10px;
+        font-size: 0.85rem;
+      }
+
+      .experience-summary {
+        flex-direction: column;
+        align-items: flex-start;
+
+        h3 {
+          margin-bottom: 3px;
+        }
+
+        .expand-icon {
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}

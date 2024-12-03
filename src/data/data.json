@@ -1,0 +1,110 @@
+{
+  "name": "Samiksha Dubey",
+  "role": "Senior Frontend Developer",
+  "bio": "Dynamic and highly skilled Lead Frontend Developer with a proven track record in creating cutting-edge web applications using React.js, Redux, Redux Toolkit, RTK Query, Redux Thunk, and Redux Saga. Proficient in JavaScript (ES6+), TypeScript, HTML5, CSS3 and SCSS. Adept at implementing scalable, responsive, and performant user interfaces. Seeking a challenging role to lead and inspire development teams to deliver exceptional front-end solutions.",
+  "skills": [
+    "Programming Languages: JavaScript (ES6+), TypeScript",
+    "Frontend Technologies: React.js, Redux, Redux Toolkit, RTK Query, Redux Thunk, Redux Saga, HTML5, CSS3, SCSS",
+    "Build Tools: Webpack, Babel",
+    "Version Control: Git, Bitbucket, AWS Codecommit",
+    "Testing: Jest, React Testing Library, Cypress",
+    "Material UI, Bootstrap, Tailwind CSS",
+    "UI/UXDesign Integration",
+    "API Integration",
+    "Responsive Web Development",
+    "Team Leadership and Collaboration",
+    "Problem Solving and Debugging",
+    "Agile Development Methodologies"
+  ],
+  "education": [
+      {
+        "degree": "Bachelor of Technology in Electronics and Telecommunications",
+        "institution": "Government College of Engineering, Amravati",
+        "duration": "2011 - 2015",
+        "score": "8.62 CGPA"
+      },
+      {
+        "degree": "Higher Secondary School Certificate",
+        "institution": "R.L.T College of Science, Akola",
+        "duration": "2011",
+        "score": "87.67 %"
+      },
+      {
+        "degree": "Secondary School Certificate",
+        "institution": "H.D Convent, Akola",
+        "duration": "2009",
+        "score": "92.76 %"
+      }
+  ],
+  "experiences": [
+        {
+          "company": "UBS",
+          "role": "Associate Director of Technology",
+          "duration": "March 2024 - Present",
+          "responsibilities": [
+            "Working as a senior frontend developer in developing a portfolio management application for investment bankers",
+            "Leading a team of senior frontend developers, and worked on architecture of the application from scratch",
+            "Utilized the latest version of React and Typscript to build a highly scalable application",
+            "Collaborated closely with UI/UX designers to ensure pixel-perfect implementation of designs, following best practices in HTML, CSS, and SCSS",
+            "Conducted code reviews, mentored junior developers, and maintained coding standards to maintain code quality and consistency",
+            "Introduced unit and integration testing using React Testing Library and Jest to ensure code reliability"
+          ]
+        },
+        {
+          "company": "Nagarro",
+          "role": "Staff Engineer",
+          "duration": "June 2021 - March 2024",
+          "responsibilities": [
+            "Led and mentored a team of front-end developers to deliver high-quality web applications for clients across diverse industries",
+            "Architected and implemented complex features using React.js, ensuring high performance and optimal user experience",
+            "Utilized Redux, Redux Toolkit, Redux Thunk, and Redux Saga for effective state management, enabling real-time updates",
+            "Collaborated closely with UI/UX designers to ensure pixel-perfect implementation of designs, following best practices in HTML, CSS, and SCSS",
+            "Optimized web applications for performance and speed, including lazy loading, code splitting, and efficient data retrieval",
+            "Introduced unit and integration testing using React Testing Library, Jest and Cypress to ensure code reliability"
+          ]
+        },
+        {
+          "company": "Globant",
+          "role": "Senior Software Engineer",
+          "duration": "September 2019 - June 2021",
+          "responsibilities": [
+            "Developed and maintained several high-traffic web applications for e-commerce clients using React.js and related technologies",
+            "Worked closely with the product team to define requirements and translate them into technical specifications and user stories",
+            "Implemented responsive web design principles to ensure a seamless experience across various devices and screen sizes",
+            "Created custom reusable UI components and optimized rendering for improved performance",
+            "Collaborated with backend developers to design API integrations and enhance overall system architecture",
+            "Engaged in regular code refactoring and performance tuning to boost application speed",
+            "Actively participated in knowledge sharing and trained junior developers on best practices and tools"
+          ]
+        },
+        {
+          "company": "Cognizant",
+          "role": "Associate - Projects",
+          "duration": "February 2016 - September 2019",
+          "responsibilities": [
+            "Contributed to developing and maintaining web applications using React.js",
+            "Collaborated with senior developers to design and implement new features and user interfaces",
+            "Assisted in creating responsive designs and mobile optimizations",
+            "Gained experience in state management with Redux and Redux Thunk",
+            "Participated in regular code reviews and effort estimations"
+          ]
+        }
+      ],  
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "A dynamic portfolio showcasing my work and skills.",
+      "url": "https://portfolio.example.com"
+    },
+    {
+      "title": "E-commerce Platform",
+      "description": "Built an optimized e-commerce platform with advanced features.",
+      "url": "https://ecommerce.example.com"
+    }
+  ],
+  "contact": {
+    "email": "dubesamiksha@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/samiksha-dubey-94641180/",
+    "mobile": "+91 9657543659"
+  }
+}
